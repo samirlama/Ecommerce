@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#fff;
+	font-size: 100%;
+	margin:0px;
+	padding:0px;
+	width:1349px;
+	font-family: 'DidactGothic';
+}
+body a{
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+
+.wrapper
+{
+	margin:0px;
+	height:auto;
+	width:100%;
+	
+}
+
+/*For admin login page */
+
+.wrapper .login-box
+{
+	height:200px;
+	width:200px;
+	margin:0 auto;
+	margin-top:90px;
+	padding:10px;
+	border-radius:7px;
+	background-color:hsla(0,11%,96%,1.00);
+}
+
+.wrapper .login-box label
+{
+	font-size:24px;
+	font-style:normal;
+	color:#1800E8;
+}
+
+.wrapper .login-box .username, .password
+{
+	height:30px;
+	width:200px;
+	border-radius:5px;
+}
+
+.wrapper .login-box .username:hover, .password:hover
+{
+	border-color:#54EDE1;
+}
+
+.wrapper .login-box .login
+{
+		border-radius:5px;
+		color:#002CFF;
+		height:20px;
+		background-color:#FFF;
+}
+
+.wrapper .login-box .login:hover
+{
+	background-color:#ECE1E2;
+	border-color:#002CFF;
+}
+
+/*for home page */
+.wrapper .heading
+{
+	width:100%;
+	height:100px;
+	font-size:24px;
+	margin-top:0px;
+	background-color:#C9F475;
+}
+
+.wrapper .heading .welcome
+{
+	margin:5 auto;
+	margin-left:300px;
+	color:#fff;
+	text-shadow:inherit;
+}
+
+.wrapper .navigation-bar
+{
+	height:auto;
+	width:100%;
+	margin:20px auto;
+}
+
+.wrapper .navigation-bar ul li
+{
+	list-style:none;
+	display:inline;
+	padding:50px;
+	font-size:30px;
+}
+
+.wrapper .navigation-bar a
+{
+	text-decoration:none;
+	color:black;
+}
+
+.wrapper .navigation-bar a:hover
+{
+	text-decoration:underline;
+	color:hsla(233,93%,49%,1.00);
+	transition:all 0.3s ease-in-out 0.1s;
+	text-shadow:hsla(0,0%,51%,1.00);
+}
+
+.wrapper .content
+{
+	text-align:center;
+	margin-top:0px;
+	padding:20px; 
+}
+
+.wrapper .content #aim, #hobby, #leisure, #heading
+{
+	width:700px;
+	height:20px;
+}
+/* feedback page */
+
+.wrapper .content .feedback
+{
+	width:80%;
+	height:auto;
+	padding:10px;
+	margin:10px auto;
+	outline:none;
+	overflow:hidden;
+	border-radius:10px;
+	opacity:0.9;
+	background-color:hsla(202,54%,76%,0.76);
+	
+}
+
+.wrapper .content .feedback label
+{
+	font-weight:bold;
+}
+.wrapper .content .feedback #delete
+{
+	float:right;
+	border-radius:100%;
+}
+
+.wrapper .content .feedback #delete:hover
+{
+	background-color:hsla(0,0%,100%,1.00);
+}
+
+.wrapper .content .feedback #name, #email, #phone
+{
+	font-size:16px;
+	color:hsla(241,100%,45%,1.00);
+}
+/*footer */
+.wrapper .footer
+{
+	height:auto;
+	width:100%;
+	background-color:hsla(123,82%,56%,1.00);
+}
+
+.wrapper .footer a
+{
+	font-size:16px;
+	text-align:right;
+	text-decoration:none;
+	color:#000;
+}
+
+.wrapper .footer .main-page
+{
+	float:right;
+}
+
+.wrapper .footer .conclude
+{
+	font-size:16px;
+	text-align:center;
+	clear:both;
+}
+
